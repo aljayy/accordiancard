@@ -18,6 +18,11 @@
   font-weight: bold;
 }
 
+.rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
   background: linear-gradient(#af67e9, #6565e7);
@@ -88,5 +93,7 @@ body {
 #card .questionbox .answer {
   padding-top: 1rem;
   width: 90%;
+  color: #787887;
+  line-height: 1.7rem;
 }
 /*# sourceMappingURL=main.css.map */
