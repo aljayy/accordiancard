@@ -86,7 +86,7 @@ body {
           align-items: center;
 }
 
-#card .questionbox .anchor:hover {
+#card .questionbox .question:hover {
   color: #f47c57;
 }
 
