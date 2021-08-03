@@ -37,7 +37,7 @@ body {
   height: 22rem;
   position: absolute;
   top: 3rem;
-  background-image: url(/images/bg-pattern-mobile.svg);
+  background-image: url(../images/bg-pattern-mobile.svg);
   background-repeat: no-repeat;
   background-position: center 90%;
 }
