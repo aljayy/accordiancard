@@ -8,7 +8,7 @@ for (let i = 0; i < questionBox.length; i++) {
   questionBox[i].addEventListener(`click`, function () {
     answerList[i].classList.toggle(`hidden`);
     questionList[i].classList.toggle(`bold`);
-    arrow[i].classList.toggle(`rotate`);
     arrow[i].style.transition = "300ms";
+    arrow[i].classList.toggle(`rotate`);
   });
 }
