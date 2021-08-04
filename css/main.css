@@ -30,23 +30,7 @@ body {
   background-attachment: fixed;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 1.2rem;
-}
-
-.image {
-  width: 100vw;
-  height: 22rem;
-  position: absolute;
-  top: 3rem;
-  background-image: url(../images/bg-pattern-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: center 90%;
-}
-
-.image .main-img {
-  display: block;
-  position: relative;
-  margin: auto;
-  left: -1.5rem;
+  padding: 14.7rem 2.4rem 0rem 2.4rem;
 }
 
 #card {
@@ -55,26 +39,50 @@ body {
   -webkit-box-shadow: 0px 2rem 4rem rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2rem 4rem rgba(0, 0, 0, 0.25);
   color: #1d1e35;
-  margin: 13.7rem 2rem 4rem 2rem;
-  padding: 13rem 2rem 3rem 2rem;
+  max-width: 90rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
-#card h1 {
+#card .mobile-image {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  background-image: url(../images/bg-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#card .mobile-image .main-img {
+  display: block;
+  position: relative;
+  top: -10.7rem;
+  left: -1.5rem;
+  margin: auto;
+}
+
+#card .desktop-image {
+  display: none;
+}
+
+#card .card-text {
+  padding-top: 13.8rem;
+  padding-bottom: 2.5rem;
+}
+
+#card .card-text h1 {
   text-align: center;
   font-size: 3.2rem;
   padding-bottom: 4rem;
-  padding-top: 3rem;
 }
 
-#card .questionbox {
-  padding-bottom: 2.1rem;
-  padding-top: 2rem;
-  font-size: 1.3rem;
-  letter-spacing: 0.05rem;
+#card .card-text .questionbox {
   border-bottom: 0.1rem solid #e7e7e9;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
-#card .questionbox .anchor {
+#card .card-text .anchor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,9 +94,8 @@ body {
           align-items: center;
 }
 
-#card .questionbox .answer {
-  font-size: 1.2rem;
-  padding-top: 1rem;
+#card .card-text .answer {
+  padding-top: 1.7rem;
   width: 90%;
   color: #787887;
   line-height: 1.7rem;
