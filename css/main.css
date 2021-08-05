@@ -137,6 +137,19 @@ body {
             transform: translateX(-16%);
     top: 6rem;
   }
+  #card .card-text {
+    padding-top: 7.1rem;
+  }
+  #card .card-text h1 {
+    text-align: left;
+  }
+  #card .card-text .questionbox {
+    font-size: 1.3rem;
+  }
+  #card .card-text .questionbox:hover {
+    color: #f47c57;
+    cursor: pointer;
+  }
   .box-img {
     display: block;
     position: absolute;
