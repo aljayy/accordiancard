@@ -165,4 +165,8 @@ body {
     left: -9.3rem;
     z-index: 1;
   }
+
+  .rotate {
+    transform: translate(-66%) rotate(180deg);
+  }
 }

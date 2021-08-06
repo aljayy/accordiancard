@@ -161,5 +161,9 @@ body {
     left: -9.3rem;
     z-index: 1;
   }
+  .rotate {
+    -webkit-transform: translate(-66%) rotate(180deg);
+            transform: translate(-66%) rotate(180deg);
+  }
 }
 /*# sourceMappingURL=main.css.map */
