@@ -145,6 +145,10 @@ body {
   }
   #card .card-text .questionbox {
     font-size: 1.3rem;
+    width: 34.9rem;
+  }
+  #card .card-text .questionbox .arrow {
+    padding-right: 2rem;
   }
   #card .card-text .questionbox:hover {
     color: #f47c57;
