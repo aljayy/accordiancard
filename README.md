@@ -25,14 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop Screenshot](images/desktop-screenshot.png)
+[images/desktop-screenshot.png]
 
-[Mobile Screenshot](images/mobile-screenshot.png)
+[images/mobile-screenshot.png]
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/aljayy/accordiancard)
-- Live Site URL: [Live Site](https://aljayy.github.io/accordiancard/)
+- Solution URL: [https://github.com/aljayy/accordiancard]
+- Live Site URL: [https://aljayy.github.io/accordiancard/]
 
 ## My process
 
