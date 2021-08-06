@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/aljayy/accordiancard]
-- Live Site URL: [https://aljayy.github.io/accordiancard/]
+- Solution URL: [https://github.com/aljayy/accordioncard]
+- Live Site URL: [https://aljayy.github.io/accordioncard/]
 
 ## My process
 
