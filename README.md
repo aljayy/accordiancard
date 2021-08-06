@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-[images/desktop-screenshot.png]
+[Desktop](images/desktop-screenshot.png)
 
-[images/mobile-screenshot.png]
+[Mobile](images/mobile-screenshot.png)
 
 ### Links
 
